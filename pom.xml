@@ -103,7 +103,6 @@
 		<module>artemis-build-tools</module>
 		<module>artemis-serialization</module>
 		<module>artemis-fluid</module>
-		<module>artemis-backend-gwt</module>
 	</modules>
 
 	<profiles>

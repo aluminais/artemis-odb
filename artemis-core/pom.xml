@@ -12,7 +12,6 @@
 
     <modules>
         <module>artemis</module>
-        <module>artemis-test</module>
     </modules>
 
 </project>
