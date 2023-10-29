@@ -102,9 +102,9 @@ public class TypeModelValidator {
             if (!uniques.add(signature)) {
                 T firstOccuranceMethod = firstOccurances.remove(signature);
                 if (firstOccuranceMethod != null) {
-                    duplicates.add(firstOccuranceMethod);
+                    //duplicates.add(firstOccuranceMethod);
                 }
-                duplicates.add(method);
+                //duplicates.add(method);
             } else {
                 firstOccurances.put(signature, method);
             }
